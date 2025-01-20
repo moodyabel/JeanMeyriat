@@ -6,8 +6,7 @@ Ce dépôt contient le code et les ressources pour un site web dédié à Jean M
 
 - **Page d'accueil** : Introduction à Jean Meyriat et à ses contributions.
 - **Biographie** : Aperçu de sa vie et de sa carrière.
-- **Publications** : Liste de ses œuvres majeures.
-- **Théories** : Explications de ses contributions théoriques principales.
+- **Publications** : Liste de ses œuvres.
 - **Galerie** : Galerie interactive avec une fonctionnalité de filtre pour les images liées à ses travaux.
 - **Contact** : Formulaire pour contacter le créateur du site.
 
@@ -22,7 +21,7 @@ Ce dépôt contient le code et les ressources pour un site web dédié à Jean M
 
 1. Clonez le dépôt :
    ```bash
-   git clone https://github.com/nomutilisateur/jean-meyriat-website.git
+   git clone https://github.com/moodyabel/jean-meyriat-website.git
    ```
 
 2. Accédez au répertoire du projet :
@@ -54,11 +53,5 @@ Ce dépôt contient le code et les ressources pour un site web dédié à Jean M
 ## Contributions
 
 Les contributions sont les bienvenues ! N'hésitez pas à soumettre une pull request ou à créer une issue si vous avez des suggestions ou rencontrez des problèmes.
-
-## Licence
-
-Ce projet est sous licence MIT. Consultez le fichier `LICENSE` pour plus de détails.
-
----
 
 N'hésitez pas à explorer et à adapter le site web à vos besoins !

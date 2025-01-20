@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Galerie - Jean Meyriat</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/filter.js" defer></script>
+</head>
+<body>
+    <header>
+        <div class="background"></div>
+        <div class="content">
+        <img src="img/JEAN MEYRIAT.png" alt="Jean Meyriat Logo">
+        <div class="marquee">
+            <span>Explorez des images et des illustrations de ses travaux.</span>
+        </div>
+    </header>
+
+    <nav>
+        <a href="index.html">Accueil</a>
+        <a href="biographie.html">Biographie</a>
+        <a href="ouvrages.html">Ouvrages</a>
+        <a href="galerie.html">Galerie</a>
+        <a href="apropos.html">À Propos</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <main>
+        <section>
+            <h2>Galerie</h2>
+            <p>Explorez des images et illustrations de Jean Meyriat.</p>
+        </section>
+
+        <!-- Filtres pour la galerie -->
+        <div class="filters">
+            <button data-filter="*" class="active">Tout</button>
+            <button data-filter=".portrait">Portraits</button>
+            <button data-filter=".publications">Publications</button>
+            <button data-filter=".autres">Autres</button>
+        </div>
+
+        <!-- Grille de la galerie -->
+        <div class="gallery">
+            <div class="gallery-item portrait">
+                <img src="img/images.jpg" alt="Portrait de Jean Meyriat">
+                <p>Jean Meyriat en réflexion</p>
+            </div>
+            <div class="gallery-item publications">
+                <img src="img/9782402022903_large.webp" alt="Couverture de 'Une Déontologie : Pourquoi ?'">
+                <p>Ouvrage "Une Déontologie : Pourquoi ?"</p>
+            </div>
+            <div class="gallery-item publications">
+                <img src="img/rfsp_0035-2950_1966_num_16_1.jpg" alt="Revue Française de Science Politique">
+                <p>Publication dans la Revue Française de Science Politique</p>
+            </div>
+            <div class="gallery-item portrait">
+                <img src="img/Meyriat_portrait.jpg" alt="Portrait souriant de Jean Meyriat">
+                <p>Jean Meyriat, portrait souriant</p>
+            </div>
+            <div class="gallery-item autres">
+                <img src="img/Image.jpg" alt="Jean Meyriat en conférence">
+                <p>Jean Meyriat lors d'une conférence</p>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 - Site dédié à Jean Meyriat. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
